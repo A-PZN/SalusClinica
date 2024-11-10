@@ -75,6 +75,10 @@ button {
  
     
 }
+.color-blanco{
+    background-color: fff;
+}
+   
 
 .logo-nav img {
     height: 50px;
@@ -328,30 +332,43 @@ footer {
     margin: 20px;
     padding: 20px;
 }
-.seccion-3{
-    height: 200PX 400px;
-    margin: 20PX ;
-   border-radius: 5px;
-    color: #333E7A;
-    text-align: left;
-    margin: 20px;
-    }
+
+/* Servicios*/
+#servicios{
+    background-color: #CAE0EE;
+ }
+
+.Servicios h3{
+    color: #003366;
+}
+.Serviciosp{
+    color: #000;
+}
 .seccion-3 h3{
     font-size: 30px;
+    color: #333E7A;
 }
 
 .seccion-3 p{
     font-size: 20px;
+    color: #000;
 }
-.section
 
-.seccion-4{
+/*Equipo*/
 
-    background-color:#003366 ;
-    margin: 20px 0px 20px 0px;
-    width: 100%;
-    height: auto;
-    padding: 20px;
+.contenedor-fila .row{
+    background-color: #80A7BF;
+    border-radius: 2px;
+   
+    padding: 1rem;
+    
+    margin: 0px;
+}
+
+.columna-texto{
+    background-color: #CAE0EE;
+    padding: 1rem;
+    
 }
 .seccion-4 h3{
     margin-bottom: 10px;
@@ -360,11 +377,31 @@ footer {
     text-align: center;
 }
 .seccion-4 p{
-    color: #7BD8D0;
+    color:#000;
     font-size: 20px;
     margin-bottom: 10px;
     
 }
+.card-title{
+    color: #333E7A;
+}
+
+.boton3{
+       background-color: #003366; 
+       color: #fff;
+        transition: background-color 0.3s, border 0.3s;
+        
+        font-size: 1.5rem;
+            padding: 1rem 2rem;
+            width: 100%;
+
+  }
+  .boton3 :hover{ 
+    background-color: #ffffff; 
+    color: #003366; 
+    border: 2px solid #003366; 
+    
+  }
 
    .formulario {
     border-style: solid;
@@ -393,6 +430,20 @@ footer {
     width: 100px;
     margin-top: 30px;
     padding: 1px;
+}
+
+.profecionales h3{
+    color: #003366;
+    text-align: center;
+
+}
+.profecionales p{
+    color: #000;
+    text-align: center;
+
+}
+.modal-body p{
+    font-size: 18px;
 }
 
 
