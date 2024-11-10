@@ -27,31 +27,31 @@ body {
 }
 
 h1 {
-    font-family: 'Red Hat Display';
-    font-size: 32px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 42px;
     font-weight: bold;
 }
 
 h2 {
-    font-family: 'Red Hat Display';
+    font-family:  "Red Hat Display", sans-serif;
     font-size: 28px;
     font-weight: 600;
 }
 
 h3 {
-    font-family: 'Red Hat Display';
+    font-family:  "Red Hat Display", sans-serif;
     font-size: 24px;
     font-weight: 600;
 }
 
 h4 {
-    font-family: 'Red Hat Display';
+    font-family:  "Red Hat Display", sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 
 p, li {
-    font-family: 'Inter';
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: normal;
 }
@@ -68,8 +68,12 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #80A7BF;
+    background-color: #feffff;
     padding: 10px 20px;
+    margin-bottom: 20PX ;
+    border-bottom: 2px solid #333E7A;
+ 
+    
 }
 
 .logo-nav img {
@@ -86,19 +90,19 @@ button {
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(15, 14, 14);
     padding: 5px 10px;
     transition: color 0.3s, border-bottom 0.3s;
 }
 
 .navbar ul li a:hover {
-    color: black;
-    border-bottom: 2px solid black;
+    color: #003366;
+    border-bottom: 2px solid #003366;
 }
 
 .navbar ul li a.active {
-    color: black;
-    border-bottom: 2px solid black;
+    color: #003366;
+    border-bottom: 2px solid #333E7A;
 }
 
 /* Footer */
@@ -107,14 +111,18 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #80A7BF;
+    background-color: #ffff;
     padding: 20px;
-    color: white;
+    color: #333E7A;
+    
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color:#333E7A;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     width: 100%;
 }
@@ -122,12 +130,14 @@ footer {
 .logo-footer img {
     max-width: 100%;
     height: auto;
-    margin-right: 50px;
+    margin-right: 40px;
+    
 }
 
-h3 {
-    margin: 0 0 10px 0;
-}
+
+    
+    
+
 
 .enlaces ul {
     margin: 0;
@@ -135,10 +145,6 @@ h3 {
     list-style-type: none;
 }
 
-.enlaces ul li a {
-    text-decoration: none;
-    color: white;
-}
 
 .redes p {
     margin: 20px;
@@ -166,10 +172,11 @@ h3 {
     position: relative;
     text-align: center;
     padding: 50px 20px;
-    color: white;
-    background: #E0F7FA;
+    color: rgb(24, 22, 22);
+    background: #fff;
     border-radius: 10px;
     margin: 20px;
+    
 }
 
 .banner h3 {
@@ -191,35 +198,202 @@ h3 {
 .image-right {
     display: inline;
 }
+.container-1{
+    height: 200PX 400px;
+    margin: 20PX ;
+   border-radius: 5px;
+    background-color:#E0D7FF;
+    color: #333E7A;
+    
+    
+    
+}
+.seccion-1 img{
+    float: right;
+   
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+    
+  
+    
+}
+.seccion-1 h3{
+    text-align:left;
+    margin : 20px 0px 0px 20px;
+    font-size: 30px;
+    
+
+    
+}
+.seccion-1 p {
+    margin: 20px 70px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 50%;
+    display: inline;
+    
+}
+.btn {
+    background-color: #333E7A  ;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+}
 
 .especialidades {
-    margin-top: 50px;
-    text-align: center;
+    
+    margin-top:40px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+.especialidades h3{
+    color: #333E7A;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.especialidades p{
+
+    font-size: 20px;
+}
+
+.seccion-1 p{
+    color: #000;
+    margin: 20px;
 }
 
 .card-grid {
     display: grid;
     padding: 50px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 40px;
+    
 }
 
 .card {
-    background-color: #7BD8D0;
+    border-style:  solid 1000px ;
+    border-color: #877C7C;
     border-radius: 10px;
     overflow: hidden;
-    padding: 16px;
-    text-align: center;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    margin-left:20px ;
+    
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+
+     width:100px;
+    
 }
+
+
+
 
 .card p {
     margin-top: 8px;
     font-size: 32px;
     font-weight: bold;
-    color: #333E7A;
+    color:#4A4A59;
+
+    
 }
+.card btn-info-1 {
+    background-color: #4A4A59;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translatex(-50%);
+    
+}
+.modal-body p{
+    font-size: 10px;
+    text-align: left;
+    color: #000;
+
+}
+
+.seccion-2{
+    background-color:#E0D7FF;
+    border-radius: 7px;
+    text-align: left;
+    font-size: 30px;
+    color: #333E7A;
+    width: 100%;
+    height:200px auto;
+    margin: 20px;
+    padding: 20px;
+}
+.seccion-3{
+    height: 200PX 400px;
+    margin: 20PX ;
+   border-radius: 5px;
+    color: #333E7A;
+    text-align: left;
+    margin: 20px;
+    }
+.seccion-3 h3{
+    font-size: 30px;
+}
+
+.seccion-3 p{
+    font-size: 20px;
+}
+.section
+
+.seccion-4{
+
+    background-color:#003366 ;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.seccion-4 h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.seccion-4 p{
+    color: #7BD8D0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+   .formulario {
+    border-style: solid;
+    border-radius: 20px;
+    border: #003366;
+    text-align: left;
+    padding: 20px;
+    width: auto;
+
+
+
+
+}
+.mensaje{
+    padding-bottom: 50px;
+    margin-top: 10px;
+    height: auto;
+    text-align: left;
+}
+.enviar{
+    
+    border-radius: 20px;
+    color: #fff;
+    background-color: #333E7A;
+    height:20px ;
+    width: 100px;
+    margin-top: 30px;
+    padding: 1px;
+}
+
+
+
